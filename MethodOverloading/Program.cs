@@ -38,6 +38,12 @@
 
         static void Main(string[] args)
         {
+            Console.WriteLine(Add(2, 3));
+            Console.WriteLine();
+
+            Console.WriteLine(Add(2.5m, 3.5m));
+            Console.WriteLine();
+
             Console.WriteLine(Add(0, 1, true));
             Console.WriteLine();
 
